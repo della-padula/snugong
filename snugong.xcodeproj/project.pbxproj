@@ -1,0 +1,747 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE25B3FC24173E46006C832E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE25B3FB24173E46006C832E /* AppDelegate.swift */; };
+		DE25B40024173E46006C832E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE25B3FF24173E46006C832E /* ViewController.swift */; };
+		DE25B40324173E46006C832E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE25B40124173E46006C832E /* Main.storyboard */; };
+		DE25B40524173E47006C832E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE25B40424173E47006C832E /* Assets.xcassets */; };
+		DE25B40824173E47006C832E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE25B40624173E47006C832E /* LaunchScreen.storyboard */; };
+		DE25B41324173E47006C832E /* snugongUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE25B41224173E47006C832E /* snugongUITests.swift */; };
+		DE25B41824173E47006C832E /* snugong WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = DE25B41724173E47006C832E /* snugong WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DE25B41E24173E47006C832E /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE25B41C24173E47006C832E /* Interface.storyboard */; };
+		DE25B42024173E48006C832E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE25B41F24173E48006C832E /* Assets.xcassets */; };
+		DE25B42724173E48006C832E /* snugong WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DE25B42624173E48006C832E /* snugong WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DE25B42C24173E48006C832E /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE25B42B24173E48006C832E /* InterfaceController.swift */; };
+		DE25B42E24173E48006C832E /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE25B42D24173E48006C832E /* ExtensionDelegate.swift */; };
+		DE25B43024173E48006C832E /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE25B42F24173E48006C832E /* NotificationController.swift */; };
+		DE25B43224173E49006C832E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE25B43124173E49006C832E /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE25B40F24173E47006C832E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE25B3F024173E46006C832E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE25B3F724173E46006C832E;
+			remoteInfo = snugong;
+		};
+		DE25B41924173E47006C832E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE25B3F024173E46006C832E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE25B41624173E47006C832E;
+			remoteInfo = "snugong WatchKit App";
+		};
+		DE25B42824173E48006C832E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE25B3F024173E46006C832E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE25B42524173E48006C832E;
+			remoteInfo = "snugong WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DE25B43A24173E49006C832E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DE25B42724173E48006C832E /* snugong WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE25B43E24173E49006C832E /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				DE25B41824173E47006C832E /* snugong WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DE25B3F824173E46006C832E /* snugong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = snugong.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE25B3FB24173E46006C832E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE25B3FF24173E46006C832E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE25B40224173E46006C832E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE25B40424173E47006C832E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE25B40724173E47006C832E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE25B40924173E47006C832E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE25B40E24173E47006C832E /* snugongUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = snugongUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE25B41224173E47006C832E /* snugongUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snugongUITests.swift; sourceTree = "<group>"; };
+		DE25B41424173E47006C832E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE25B41724173E47006C832E /* snugong WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "snugong WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE25B41D24173E47006C832E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		DE25B41F24173E48006C832E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE25B42124173E48006C832E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE25B42624173E48006C832E /* snugong WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "snugong WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE25B42B24173E48006C832E /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		DE25B42D24173E48006C832E /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		DE25B42F24173E48006C832E /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		DE25B43124173E49006C832E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE25B43324173E49006C832E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE25B43424173E49006C832E /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE25B3F524173E46006C832E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE25B40B24173E47006C832E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE25B42324173E48006C832E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE25B3EF24173E46006C832E = {
+			isa = PBXGroup;
+			children = (
+				DE25B3FA24173E46006C832E /* snugong */,
+				DE25B41124173E47006C832E /* snugongUITests */,
+				DE25B41B24173E47006C832E /* snugong WatchKit App */,
+				DE25B42A24173E48006C832E /* snugong WatchKit Extension */,
+				DE25B3F924173E46006C832E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE25B3F924173E46006C832E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE25B3F824173E46006C832E /* snugong.app */,
+				DE25B40E24173E47006C832E /* snugongUITests.xctest */,
+				DE25B41724173E47006C832E /* snugong WatchKit App.app */,
+				DE25B42624173E48006C832E /* snugong WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE25B3FA24173E46006C832E /* snugong */ = {
+			isa = PBXGroup;
+			children = (
+				DE25B3FB24173E46006C832E /* AppDelegate.swift */,
+				DE25B3FF24173E46006C832E /* ViewController.swift */,
+				DE25B40124173E46006C832E /* Main.storyboard */,
+				DE25B40424173E47006C832E /* Assets.xcassets */,
+				DE25B40624173E47006C832E /* LaunchScreen.storyboard */,
+				DE25B40924173E47006C832E /* Info.plist */,
+			);
+			path = snugong;
+			sourceTree = "<group>";
+		};
+		DE25B41124173E47006C832E /* snugongUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE25B41224173E47006C832E /* snugongUITests.swift */,
+				DE25B41424173E47006C832E /* Info.plist */,
+			);
+			path = snugongUITests;
+			sourceTree = "<group>";
+		};
+		DE25B41B24173E47006C832E /* snugong WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				DE25B41C24173E47006C832E /* Interface.storyboard */,
+				DE25B41F24173E48006C832E /* Assets.xcassets */,
+				DE25B42124173E48006C832E /* Info.plist */,
+			);
+			path = "snugong WatchKit App";
+			sourceTree = "<group>";
+		};
+		DE25B42A24173E48006C832E /* snugong WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DE25B42B24173E48006C832E /* InterfaceController.swift */,
+				DE25B42D24173E48006C832E /* ExtensionDelegate.swift */,
+				DE25B42F24173E48006C832E /* NotificationController.swift */,
+				DE25B43124173E49006C832E /* Assets.xcassets */,
+				DE25B43324173E49006C832E /* Info.plist */,
+				DE25B43424173E49006C832E /* PushNotificationPayload.apns */,
+			);
+			path = "snugong WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE25B3F724173E46006C832E /* snugong */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE25B43F24173E49006C832E /* Build configuration list for PBXNativeTarget "snugong" */;
+			buildPhases = (
+				DE25B3F424173E46006C832E /* Sources */,
+				DE25B3F524173E46006C832E /* Frameworks */,
+				DE25B3F624173E46006C832E /* Resources */,
+				DE25B43E24173E49006C832E /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE25B41A24173E47006C832E /* PBXTargetDependency */,
+			);
+			name = snugong;
+			productName = snugong;
+			productReference = DE25B3F824173E46006C832E /* snugong.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE25B40D24173E47006C832E /* snugongUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE25B44224173E49006C832E /* Build configuration list for PBXNativeTarget "snugongUITests" */;
+			buildPhases = (
+				DE25B40A24173E47006C832E /* Sources */,
+				DE25B40B24173E47006C832E /* Frameworks */,
+				DE25B40C24173E47006C832E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE25B41024173E47006C832E /* PBXTargetDependency */,
+			);
+			name = snugongUITests;
+			productName = snugongUITests;
+			productReference = DE25B40E24173E47006C832E /* snugongUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		DE25B41624173E47006C832E /* snugong WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE25B43B24173E49006C832E /* Build configuration list for PBXNativeTarget "snugong WatchKit App" */;
+			buildPhases = (
+				DE25B41524173E47006C832E /* Resources */,
+				DE25B43A24173E49006C832E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE25B42924173E48006C832E /* PBXTargetDependency */,
+			);
+			name = "snugong WatchKit App";
+			productName = "snugong WatchKit App";
+			productReference = DE25B41724173E47006C832E /* snugong WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		DE25B42524173E48006C832E /* snugong WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE25B43724173E49006C832E /* Build configuration list for PBXNativeTarget "snugong WatchKit Extension" */;
+			buildPhases = (
+				DE25B42224173E48006C832E /* Sources */,
+				DE25B42324173E48006C832E /* Frameworks */,
+				DE25B42424173E48006C832E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "snugong WatchKit Extension";
+			productName = "snugong WatchKit Extension";
+			productReference = DE25B42624173E48006C832E /* snugong WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE25B3F024173E46006C832E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = TaeinKim;
+				TargetAttributes = {
+					DE25B3F724173E46006C832E = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					DE25B40D24173E47006C832E = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = DE25B3F724173E46006C832E;
+					};
+					DE25B41624173E47006C832E = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					DE25B42524173E48006C832E = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = DE25B3F324173E46006C832E /* Build configuration list for PBXProject "snugong" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE25B3EF24173E46006C832E;
+			productRefGroup = DE25B3F924173E46006C832E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE25B3F724173E46006C832E /* snugong */,
+				DE25B40D24173E47006C832E /* snugongUITests */,
+				DE25B41624173E47006C832E /* snugong WatchKit App */,
+				DE25B42524173E48006C832E /* snugong WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE25B3F624173E46006C832E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE25B40824173E47006C832E /* LaunchScreen.storyboard in Resources */,
+				DE25B40524173E47006C832E /* Assets.xcassets in Resources */,
+				DE25B40324173E46006C832E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE25B40C24173E47006C832E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE25B41524173E47006C832E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE25B42024173E48006C832E /* Assets.xcassets in Resources */,
+				DE25B41E24173E47006C832E /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE25B42424173E48006C832E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE25B43224173E49006C832E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE25B3F424173E46006C832E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE25B40024173E46006C832E /* ViewController.swift in Sources */,
+				DE25B3FC24173E46006C832E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE25B40A24173E47006C832E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE25B41324173E47006C832E /* snugongUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE25B42224173E48006C832E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE25B43024173E48006C832E /* NotificationController.swift in Sources */,
+				DE25B42E24173E48006C832E /* ExtensionDelegate.swift in Sources */,
+				DE25B42C24173E48006C832E /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE25B41024173E47006C832E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE25B3F724173E46006C832E /* snugong */;
+			targetProxy = DE25B40F24173E47006C832E /* PBXContainerItemProxy */;
+		};
+		DE25B41A24173E47006C832E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE25B41624173E47006C832E /* snugong WatchKit App */;
+			targetProxy = DE25B41924173E47006C832E /* PBXContainerItemProxy */;
+		};
+		DE25B42924173E48006C832E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE25B42524173E48006C832E /* snugong WatchKit Extension */;
+			targetProxy = DE25B42824173E48006C832E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE25B40124173E46006C832E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE25B40224173E46006C832E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE25B40624173E47006C832E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE25B40724173E47006C832E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DE25B41C24173E47006C832E /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE25B41D24173E47006C832E /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE25B43524173E49006C832E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE25B43624173E49006C832E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE25B43824173E49006C832E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M79H9K226Y;
+				INFOPLIST_FILE = "snugong WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.elliott.snugong.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		DE25B43924173E49006C832E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M79H9K226Y;
+				INFOPLIST_FILE = "snugong WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.elliott.snugong.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		DE25B43C24173E49006C832E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M79H9K226Y;
+				IBSC_MODULE = snugong_WatchKit_Extension;
+				INFOPLIST_FILE = "snugong WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elliott.snugong.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		DE25B43D24173E49006C832E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M79H9K226Y;
+				IBSC_MODULE = snugong_WatchKit_Extension;
+				INFOPLIST_FILE = "snugong WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elliott.snugong.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		DE25B44024173E49006C832E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M79H9K226Y;
+				INFOPLIST_FILE = snugong/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.elliott.snugong;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE25B44124173E49006C832E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M79H9K226Y;
+				INFOPLIST_FILE = snugong/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.elliott.snugong;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DE25B44324173E49006C832E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M79H9K226Y;
+				INFOPLIST_FILE = snugongUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.elliott.snugongUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = snugong;
+			};
+			name = Debug;
+		};
+		DE25B44424173E49006C832E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M79H9K226Y;
+				INFOPLIST_FILE = snugongUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.elliott.snugongUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = snugong;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE25B3F324173E46006C832E /* Build configuration list for PBXProject "snugong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE25B43524173E49006C832E /* Debug */,
+				DE25B43624173E49006C832E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE25B43724173E49006C832E /* Build configuration list for PBXNativeTarget "snugong WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE25B43824173E49006C832E /* Debug */,
+				DE25B43924173E49006C832E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE25B43B24173E49006C832E /* Build configuration list for PBXNativeTarget "snugong WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE25B43C24173E49006C832E /* Debug */,
+				DE25B43D24173E49006C832E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE25B43F24173E49006C832E /* Build configuration list for PBXNativeTarget "snugong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE25B44024173E49006C832E /* Debug */,
+				DE25B44124173E49006C832E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE25B44224173E49006C832E /* Build configuration list for PBXNativeTarget "snugongUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE25B44324173E49006C832E /* Debug */,
+				DE25B44424173E49006C832E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE25B3F024173E46006C832E /* Project object */;
+}
