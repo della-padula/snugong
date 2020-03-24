@@ -1,0 +1,6 @@
+framework module Pods_snugong_snugongUITests {
+  umbrella header "Pods-snugong-snugongUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

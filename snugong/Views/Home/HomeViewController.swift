@@ -7,3 +7,21 @@
 //
 
 import Foundation
+import UIKit
+
+class HomeViewController: UIViewController {
+    
+    var presenter: HomePresenterProtocol?
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+}
+
+extension HomeViewController: HomeViewProtocol {
+    
+}

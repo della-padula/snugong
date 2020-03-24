@@ -8,11 +8,21 @@
 
 import UIKit
 
-class SplashViewController: UIViewController {
+class SplashViewController: UIViewController, SplashViewProtocol {
 
+    private var presenter: SplashPresenterProtocol!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        self.presenter = SplashPresenter(view: self)
+        
+        self.setRootViewController()
+    }
+    
+    private func setRootViewController() {
+//        let vc = self.storyboard!.instantiateViewController(withIdentifier: "homeVC") as! HomeViewController
+        
+        HomeSwitcher.updateRootVC()
     }
     
     override var preferredStatusBarStyle: UIStatusBarStyle {

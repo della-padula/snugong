@@ -7,3 +7,15 @@
 //
 
 import Foundation
+
+protocol SplashViewProtocol {
+    
+}
+
+protocol SplashPresenterProtocol {
+    
+}
+
+protocol SplashModelProtocol {
+    
+}

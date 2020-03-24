@@ -3,12 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		069342C2A48C4A172BA18ACE /* Pods_snugong_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7006C519819CFE357D33BC21 /* Pods_snugong_WatchKit_Extension.framework */; };
+		4C14BC56DB51E0CACE2E5EED /* Pods_snugong.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AAD55376A355FE1963D4695 /* Pods_snugong.framework */; };
+		81989308D140DCC9CA4C84AC /* Pods_snugong_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E2D579ADE926563A011F438 /* Pods_snugong_WatchKit_App.framework */; };
+		DE0E73B4241CBEDF0039B8E6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0E73B3241CBEDF0039B8E6 /* HomeViewController.swift */; };
+		DE0E73B6241CBF1A0039B8E6 /* HomeContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0E73B5241CBF1A0039B8E6 /* HomeContract.swift */; };
+		DE0E73B8241CBF600039B8E6 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0E73B7241CBF600039B8E6 /* HomePresenter.swift */; };
+		DE0E73BA241CC3590039B8E6 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0E73B9241CC3590039B8E6 /* HomeRouter.swift */; };
 		DE25B3FC24173E46006C832E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE25B3FB24173E46006C832E /* AppDelegate.swift */; };
-		DE25B40024173E46006C832E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE25B3FF24173E46006C832E /* ViewController.swift */; };
+		DE25B40024173E46006C832E /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE25B3FF24173E46006C832E /* SplashViewController.swift */; };
 		DE25B40324173E46006C832E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE25B40124173E46006C832E /* Main.storyboard */; };
 		DE25B40524173E47006C832E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE25B40424173E47006C832E /* Assets.xcassets */; };
 		DE25B40824173E47006C832E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE25B40624173E47006C832E /* LaunchScreen.storyboard */; };
@@ -21,6 +28,30 @@
 		DE25B42E24173E48006C832E /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE25B42D24173E48006C832E /* ExtensionDelegate.swift */; };
 		DE25B43024173E48006C832E /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE25B42F24173E48006C832E /* NotificationController.swift */; };
 		DE25B43224173E49006C832E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE25B43124173E49006C832E /* Assets.xcassets */; };
+		DE25B4472417440A006C832E /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE25B4462417440A006C832E /* UIColor+Extensions.swift */; };
+		DE25B4482417440A006C832E /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE25B4462417440A006C832E /* UIColor+Extensions.swift */; };
+		DE25B44A24174467006C832E /* ColorSet.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE25B44924174467006C832E /* ColorSet.xcassets */; };
+		DE25B44B24174467006C832E /* ColorSet.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE25B44924174467006C832E /* ColorSet.xcassets */; };
+		DE25B44F24174AF4006C832E /* SplashPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE25B44E24174AF4006C832E /* SplashPresenter.swift */; };
+		DE25B45024174AF4006C832E /* SplashPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE25B44E24174AF4006C832E /* SplashPresenter.swift */; };
+		DE25B45224174B06006C832E /* SplashModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE25B45124174B06006C832E /* SplashModel.swift */; };
+		DE25B45324174B06006C832E /* SplashModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE25B45124174B06006C832E /* SplashModel.swift */; };
+		DE25B45524174B14006C832E /* SplashContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE25B45424174B14006C832E /* SplashContract.swift */; };
+		DE25B45624174B14006C832E /* SplashContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE25B45424174B14006C832E /* SplashContract.swift */; };
+		DE25B45924174CCF006C832E /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE25B45824174CCF006C832E /* Profile.swift */; };
+		DE25B45A24174CCF006C832E /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE25B45824174CCF006C832E /* Profile.swift */; };
+		DE25B45C2417685D006C832E /* MajorCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE25B45B2417685D006C832E /* MajorCode.swift */; };
+		DE25B45D2417685D006C832E /* MajorCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE25B45B2417685D006C832E /* MajorCode.swift */; };
+		DE25B45F241769C2006C832E /* MajorName.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE25B45E241769C2006C832E /* MajorName.swift */; };
+		DE25B460241769C2006C832E /* MajorName.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE25B45E241769C2006C832E /* MajorName.swift */; };
+		DE301A0FDE211C861C37048C /* Pods_snugong_snugongUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D68FF0393FEC85AB96E63D18 /* Pods_snugong_snugongUITests.framework */; };
+		DE62BAA3241CB2410094F068 /* CalendarParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE62BAA2241CB2410094F068 /* CalendarParser.swift */; };
+		DE62BAA7241CB3BC0094F068 /* HTMLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE62BAA6241CB3BC0094F068 /* HTMLRequest.swift */; };
+		DE62BAAB241CB5630094F068 /* AppProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE62BAAA241CB5630094F068 /* AppProperty.swift */; };
+		DE7444D8241CFA8E0062C113 /* HomeSwitcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7444D7241CFA8E0062C113 /* HomeSwitcher.swift */; };
+		DE7444DB241CFAFF0062C113 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7444DA241CFAFF0062C113 /* StartViewController.swift */; };
+		DE7444DE241CFD0F0062C113 /* HomeDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7444DD241CFD0F0062C113 /* HomeDataManager.swift */; };
+		DE744502241D00EE0062C113 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE744501241D00EE0062C113 /* HomeInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,9 +104,21 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		40A2A32EDFBEB518FC3239B0 /* Pods-snugong.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-snugong.debug.xcconfig"; path = "Target Support Files/Pods-snugong/Pods-snugong.debug.xcconfig"; sourceTree = "<group>"; };
+		5377D4DA3C48F31BA4A94099 /* Pods-snugong WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-snugong WatchKit Extension.release.xcconfig"; path = "Target Support Files/Pods-snugong WatchKit Extension/Pods-snugong WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		5AAD55376A355FE1963D4695 /* Pods_snugong.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_snugong.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E2D579ADE926563A011F438 /* Pods_snugong_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_snugong_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7006C519819CFE357D33BC21 /* Pods_snugong_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_snugong_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9962E8EA6C50B8E84B20A5A1 /* Pods-snugong WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-snugong WatchKit App.debug.xcconfig"; path = "Target Support Files/Pods-snugong WatchKit App/Pods-snugong WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		B6704839DF4BEB1FA6CCBAD3 /* Pods-snugong WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-snugong WatchKit Extension.debug.xcconfig"; path = "Target Support Files/Pods-snugong WatchKit Extension/Pods-snugong WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		D68FF0393FEC85AB96E63D18 /* Pods_snugong_snugongUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_snugong_snugongUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE0E73B3241CBEDF0039B8E6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		DE0E73B5241CBF1A0039B8E6 /* HomeContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeContract.swift; sourceTree = "<group>"; };
+		DE0E73B7241CBF600039B8E6 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		DE0E73B9241CC3590039B8E6 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
 		DE25B3F824173E46006C832E /* snugong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = snugong.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE25B3FB24173E46006C832E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DE25B3FF24173E46006C832E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE25B3FF24173E46006C832E /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		DE25B40224173E46006C832E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DE25B40424173E47006C832E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE25B40724173E47006C832E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -94,13 +137,41 @@
 		DE25B43124173E49006C832E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE25B43324173E49006C832E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE25B43424173E49006C832E /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		DE25B4462417440A006C832E /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		DE25B44924174467006C832E /* ColorSet.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ColorSet.xcassets; sourceTree = "<group>"; };
+		DE25B44E24174AF4006C832E /* SplashPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashPresenter.swift; sourceTree = "<group>"; };
+		DE25B45124174B06006C832E /* SplashModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashModel.swift; sourceTree = "<group>"; };
+		DE25B45424174B14006C832E /* SplashContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashContract.swift; sourceTree = "<group>"; };
+		DE25B45824174CCF006C832E /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		DE25B45B2417685D006C832E /* MajorCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorCode.swift; sourceTree = "<group>"; };
+		DE25B45E241769C2006C832E /* MajorName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorName.swift; sourceTree = "<group>"; };
+		DE62BAA2241CB2410094F068 /* CalendarParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarParser.swift; sourceTree = "<group>"; };
+		DE62BAA6241CB3BC0094F068 /* HTMLRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTMLRequest.swift; sourceTree = "<group>"; };
+		DE62BAAA241CB5630094F068 /* AppProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppProperty.swift; sourceTree = "<group>"; };
+		DE7444D7241CFA8E0062C113 /* HomeSwitcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSwitcher.swift; sourceTree = "<group>"; };
+		DE7444DA241CFAFF0062C113 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		DE7444DD241CFD0F0062C113 /* HomeDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDataManager.swift; sourceTree = "<group>"; };
+		DE744501241D00EE0062C113 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		DF0867BA8DCB017A254DF084 /* Pods-snugong-snugongUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-snugong-snugongUITests.release.xcconfig"; path = "Target Support Files/Pods-snugong-snugongUITests/Pods-snugong-snugongUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EBF4804950BFC6D20A3CDE46 /* Pods-snugong-snugongUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-snugong-snugongUITests.debug.xcconfig"; path = "Target Support Files/Pods-snugong-snugongUITests/Pods-snugong-snugongUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F43E4163F0CFA45858AB7B56 /* Pods-snugong.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-snugong.release.xcconfig"; path = "Target Support Files/Pods-snugong/Pods-snugong.release.xcconfig"; sourceTree = "<group>"; };
+		F920CAA741E194C11E31404D /* Pods-snugong WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-snugong WatchKit App.release.xcconfig"; path = "Target Support Files/Pods-snugong WatchKit App/Pods-snugong WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4C88652F790B48010E5D61DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81989308D140DCC9CA4C84AC /* Pods_snugong_WatchKit_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DE25B3F524173E46006C832E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C14BC56DB51E0CACE2E5EED /* Pods_snugong.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +179,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE301A0FDE211C861C37048C /* Pods_snugong_snugongUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,12 +187,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				069342C2A48C4A172BA18ACE /* Pods_snugong_WatchKit_Extension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BCAE54EF5DDF0B87928A5EEC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				40A2A32EDFBEB518FC3239B0 /* Pods-snugong.debug.xcconfig */,
+				F43E4163F0CFA45858AB7B56 /* Pods-snugong.release.xcconfig */,
+				9962E8EA6C50B8E84B20A5A1 /* Pods-snugong WatchKit App.debug.xcconfig */,
+				F920CAA741E194C11E31404D /* Pods-snugong WatchKit App.release.xcconfig */,
+				B6704839DF4BEB1FA6CCBAD3 /* Pods-snugong WatchKit Extension.debug.xcconfig */,
+				5377D4DA3C48F31BA4A94099 /* Pods-snugong WatchKit Extension.release.xcconfig */,
+				EBF4804950BFC6D20A3CDE46 /* Pods-snugong-snugongUITests.debug.xcconfig */,
+				DF0867BA8DCB017A254DF084 /* Pods-snugong-snugongUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DE0E73B2241CBECE0039B8E6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DE7444DC241CFCDD0062C113 /* DataManager */,
+				DE0E73B3241CBEDF0039B8E6 /* HomeViewController.swift */,
+				DE0E73B5241CBF1A0039B8E6 /* HomeContract.swift */,
+				DE0E73B7241CBF600039B8E6 /* HomePresenter.swift */,
+				DE0E73B9241CC3590039B8E6 /* HomeRouter.swift */,
+				DE744501241D00EE0062C113 /* HomeInteractor.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		DE25B3EF24173E46006C832E = {
 			isa = PBXGroup;
 			children = (
@@ -129,6 +230,8 @@
 				DE25B41B24173E47006C832E /* snugong WatchKit App */,
 				DE25B42A24173E48006C832E /* snugong WatchKit Extension */,
 				DE25B3F924173E46006C832E /* Products */,
+				BCAE54EF5DDF0B87928A5EEC /* Pods */,
+				DEA68F130BC89B741EDE2AAC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -146,10 +249,12 @@
 		DE25B3FA24173E46006C832E /* snugong */ = {
 			isa = PBXGroup;
 			children = (
+				DE25B45724174CC6006C832E /* Entities */,
+				DE62BAA1241CB2240094F068 /* Module */,
+				DE25B44C24174AD8006C832E /* Views */,
+				DE25B445241743F5006C832E /* Resources */,
 				DE25B3FB24173E46006C832E /* AppDelegate.swift */,
-				DE25B3FF24173E46006C832E /* ViewController.swift */,
 				DE25B40124173E46006C832E /* Main.storyboard */,
-				DE25B40424173E47006C832E /* Assets.xcassets */,
 				DE25B40624173E47006C832E /* LaunchScreen.storyboard */,
 				DE25B40924173E47006C832E /* Info.plist */,
 			);
@@ -188,6 +293,117 @@
 			path = "snugong WatchKit Extension";
 			sourceTree = "<group>";
 		};
+		DE25B445241743F5006C832E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DE62BAAA241CB5630094F068 /* AppProperty.swift */,
+				DE25B4462417440A006C832E /* UIColor+Extensions.swift */,
+				DE25B40424173E47006C832E /* Assets.xcassets */,
+				DE25B44924174467006C832E /* ColorSet.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DE25B44C24174AD8006C832E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DE7444D9241CFAC00062C113 /* Start */,
+				DE0E73B2241CBECE0039B8E6 /* Home */,
+				DE25B44D24174AE0006C832E /* Splash */,
+				DE7444D7241CFA8E0062C113 /* HomeSwitcher.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DE25B44D24174AE0006C832E /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				DE25B3FF24173E46006C832E /* SplashViewController.swift */,
+				DE25B44E24174AF4006C832E /* SplashPresenter.swift */,
+				DE25B45124174B06006C832E /* SplashModel.swift */,
+				DE25B45424174B14006C832E /* SplashContract.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		DE25B45724174CC6006C832E /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				DE25B45824174CCF006C832E /* Profile.swift */,
+				DE25B45B2417685D006C832E /* MajorCode.swift */,
+				DE25B45E241769C2006C832E /* MajorName.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		DE62BAA1241CB2240094F068 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				DE62BAA5241CB3AC0094F068 /* Network */,
+				DE62BAA4241CB3A50094F068 /* Parser */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		DE62BAA4241CB3A50094F068 /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				DE62BAA9241CB3DA0094F068 /* Calendar */,
+				DE62BAA8241CB3D40094F068 /* Notice */,
+			);
+			path = Parser;
+			sourceTree = "<group>";
+		};
+		DE62BAA5241CB3AC0094F068 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				DE62BAA6241CB3BC0094F068 /* HTMLRequest.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		DE62BAA8241CB3D40094F068 /* Notice */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Notice;
+			sourceTree = "<group>";
+		};
+		DE62BAA9241CB3DA0094F068 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				DE62BAA2241CB2410094F068 /* CalendarParser.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		DE7444D9241CFAC00062C113 /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				DE7444DA241CFAFF0062C113 /* StartViewController.swift */,
+			);
+			path = Start;
+			sourceTree = "<group>";
+		};
+		DE7444DC241CFCDD0062C113 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				DE7444DD241CFD0F0062C113 /* HomeDataManager.swift */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		DEA68F130BC89B741EDE2AAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AAD55376A355FE1963D4695 /* Pods_snugong.framework */,
+				6E2D579ADE926563A011F438 /* Pods_snugong_WatchKit_App.framework */,
+				7006C519819CFE357D33BC21 /* Pods_snugong_WatchKit_Extension.framework */,
+				D68FF0393FEC85AB96E63D18 /* Pods_snugong_snugongUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -195,10 +411,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE25B43F24173E49006C832E /* Build configuration list for PBXNativeTarget "snugong" */;
 			buildPhases = (
+				194028AFABD8B6980CC1EFC1 /* [CP] Check Pods Manifest.lock */,
 				DE25B3F424173E46006C832E /* Sources */,
 				DE25B3F524173E46006C832E /* Frameworks */,
 				DE25B3F624173E46006C832E /* Resources */,
 				DE25B43E24173E49006C832E /* Embed Watch Content */,
+				A9ECD9BE0FB0AF939D23DE48 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -214,9 +432,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE25B44224173E49006C832E /* Build configuration list for PBXNativeTarget "snugongUITests" */;
 			buildPhases = (
+				62DC9BD94CB65F91F21922D9 /* [CP] Check Pods Manifest.lock */,
 				DE25B40A24173E47006C832E /* Sources */,
 				DE25B40B24173E47006C832E /* Frameworks */,
 				DE25B40C24173E47006C832E /* Resources */,
+				F6D857AF108C1822FAF6E934 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,8 +452,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE25B43B24173E49006C832E /* Build configuration list for PBXNativeTarget "snugong WatchKit App" */;
 			buildPhases = (
+				106339E981ED1C940FB4AD9F /* [CP] Check Pods Manifest.lock */,
 				DE25B41524173E47006C832E /* Resources */,
 				DE25B43A24173E49006C832E /* Embed App Extensions */,
+				4C88652F790B48010E5D61DC /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -249,6 +471,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE25B43724173E49006C832E /* Build configuration list for PBXNativeTarget "snugong WatchKit Extension" */;
 			buildPhases = (
+				CC80D4513080AD3FB7FF667D /* [CP] Check Pods Manifest.lock */,
 				DE25B42224173E48006C832E /* Sources */,
 				DE25B42324173E48006C832E /* Frameworks */,
 				DE25B42424173E48006C832E /* Resources */,
@@ -313,6 +536,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE25B44A24174467006C832E /* ColorSet.xcassets in Resources */,
 				DE25B40824173E47006C832E /* LaunchScreen.storyboard in Resources */,
 				DE25B40524173E47006C832E /* Assets.xcassets in Resources */,
 				DE25B40324173E46006C832E /* Main.storyboard in Resources */,
@@ -339,19 +563,163 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE25B44B24174467006C832E /* ColorSet.xcassets in Resources */,
 				DE25B43224173E49006C832E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		106339E981ED1C940FB4AD9F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-snugong WatchKit App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		194028AFABD8B6980CC1EFC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-snugong-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62DC9BD94CB65F91F21922D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-snugong-snugongUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9ECD9BE0FB0AF939D23DE48 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-snugong/Pods-snugong-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-snugong/Pods-snugong-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-snugong/Pods-snugong-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC80D4513080AD3FB7FF667D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-snugong WatchKit Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6D857AF108C1822FAF6E934 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-snugong-snugongUITests/Pods-snugong-snugongUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-snugong-snugongUITests/Pods-snugong-snugongUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-snugong-snugongUITests/Pods-snugong-snugongUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DE25B3F424173E46006C832E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE25B40024173E46006C832E /* ViewController.swift in Sources */,
+				DE25B45F241769C2006C832E /* MajorName.swift in Sources */,
+				DE25B40024173E46006C832E /* SplashViewController.swift in Sources */,
+				DE25B45224174B06006C832E /* SplashModel.swift in Sources */,
+				DE744502241D00EE0062C113 /* HomeInteractor.swift in Sources */,
+				DE7444D8241CFA8E0062C113 /* HomeSwitcher.swift in Sources */,
+				DE0E73B8241CBF600039B8E6 /* HomePresenter.swift in Sources */,
+				DE7444DB241CFAFF0062C113 /* StartViewController.swift in Sources */,
+				DE25B4472417440A006C832E /* UIColor+Extensions.swift in Sources */,
+				DE0E73BA241CC3590039B8E6 /* HomeRouter.swift in Sources */,
+				DE25B45924174CCF006C832E /* Profile.swift in Sources */,
 				DE25B3FC24173E46006C832E /* AppDelegate.swift in Sources */,
+				DE62BAA7241CB3BC0094F068 /* HTMLRequest.swift in Sources */,
+				DE25B45524174B14006C832E /* SplashContract.swift in Sources */,
+				DE25B44F24174AF4006C832E /* SplashPresenter.swift in Sources */,
+				DE62BAA3241CB2410094F068 /* CalendarParser.swift in Sources */,
+				DE0E73B6241CBF1A0039B8E6 /* HomeContract.swift in Sources */,
+				DE62BAAB241CB5630094F068 /* AppProperty.swift in Sources */,
+				DE0E73B4241CBEDF0039B8E6 /* HomeViewController.swift in Sources */,
+				DE7444DE241CFD0F0062C113 /* HomeDataManager.swift in Sources */,
+				DE25B45C2417685D006C832E /* MajorCode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,9 +735,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE25B45324174B06006C832E /* SplashModel.swift in Sources */,
+				DE25B45A24174CCF006C832E /* Profile.swift in Sources */,
 				DE25B43024173E48006C832E /* NotificationController.swift in Sources */,
+				DE25B45024174AF4006C832E /* SplashPresenter.swift in Sources */,
+				DE25B45D2417685D006C832E /* MajorCode.swift in Sources */,
 				DE25B42E24173E48006C832E /* ExtensionDelegate.swift in Sources */,
+				DE25B460241769C2006C832E /* MajorName.swift in Sources */,
+				DE25B45624174B14006C832E /* SplashContract.swift in Sources */,
 				DE25B42C24173E48006C832E /* InterfaceController.swift in Sources */,
+				DE25B4482417440A006C832E /* UIColor+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -537,6 +912,7 @@
 		};
 		DE25B43824173E49006C832E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6704839DF4BEB1FA6CCBAD3 /* Pods-snugong WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -559,6 +935,7 @@
 		};
 		DE25B43924173E49006C832E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5377D4DA3C48F31BA4A94099 /* Pods-snugong WatchKit Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -581,6 +958,7 @@
 		};
 		DE25B43C24173E49006C832E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9962E8EA6C50B8E84B20A5A1 /* Pods-snugong WatchKit App.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -600,6 +978,7 @@
 		};
 		DE25B43D24173E49006C832E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F920CAA741E194C11E31404D /* Pods-snugong WatchKit App.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -619,6 +998,7 @@
 		};
 		DE25B44024173E49006C832E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40A2A32EDFBEB518FC3239B0 /* Pods-snugong.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -637,6 +1017,7 @@
 		};
 		DE25B44124173E49006C832E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F43E4163F0CFA45858AB7B56 /* Pods-snugong.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -655,6 +1036,7 @@
 		};
 		DE25B44324173E49006C832E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBF4804950BFC6D20A3CDE46 /* Pods-snugong-snugongUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -675,6 +1057,7 @@
 		};
 		DE25B44424173E49006C832E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF0867BA8DCB017A254DF084 /* Pods-snugong-snugongUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

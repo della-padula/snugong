@@ -7,3 +7,20 @@
 //
 
 import Foundation
+import UIKit
+
+class SplashPresenter: SplashPresenterProtocol {
+    private var view: SplashViewProtocol!
+    
+    init(view: SplashViewProtocol) {
+        self.view = view
+    }
+    
+    func checkForUpdates() {
+        
+    }
+    
+    func fetchProfile() {
+        
+    }
+}

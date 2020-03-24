@@ -7,3 +7,17 @@
 //
 
 import Foundation
+
+class HomePresenter: HomePresenterProtocol {
+    weak var view: HomeViewProtocol?
+    var interactor: HomeInteractorProtocol?
+    var router: HomeRouterProtocol?
+    
+    func fetchCalendar(page: Int) {
+        
+    }
+}
+
+extension HomePresenter: HomeInteractorOutputDelegate {
+    
+}

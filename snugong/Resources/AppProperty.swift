@@ -7,3 +7,13 @@
 //
 
 import Foundation
+
+enum NetworkResponse {
+    case success
+    case nodata
+    case failure
+}
+
+public struct AppProperty {
+    public static let hostURL = "https://www.snu.ac.kr/"
+}
