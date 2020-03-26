@@ -7,8 +7,6 @@ target 'snugong' do
 
   # Pods for snugong
   pod 'Alamofire'
-  pod 'RxSwift'
-  pod 'RxCocoa'
   pod 'Kanna'
   pod 'SwiftyJSON'
   pod 'Kingfisher'
