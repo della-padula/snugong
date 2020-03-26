@@ -10,6 +10,8 @@
 		069342C2A48C4A172BA18ACE /* Pods_snugong_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7006C519819CFE357D33BC21 /* Pods_snugong_WatchKit_Extension.framework */; };
 		4C14BC56DB51E0CACE2E5EED /* Pods_snugong.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AAD55376A355FE1963D4695 /* Pods_snugong.framework */; };
 		81989308D140DCC9CA4C84AC /* Pods_snugong_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E2D579ADE926563A011F438 /* Pods_snugong_WatchKit_App.framework */; };
+		B0462B36242CA30500B51854 /* StartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0462B35242CA30500B51854 /* StartViewModel.swift */; };
+		B0462B39242CA47800B51854 /* Major.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0462B38242CA47800B51854 /* Major.swift */; };
 		DE0E73B4241CBEDF0039B8E6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0E73B3241CBEDF0039B8E6 /* HomeViewController.swift */; };
 		DE0E73B6241CBF1A0039B8E6 /* HomeContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0E73B5241CBF1A0039B8E6 /* HomeContract.swift */; };
 		DE0E73B8241CBF600039B8E6 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0E73B7241CBF600039B8E6 /* HomePresenter.swift */; };
@@ -110,6 +112,8 @@
 		6E2D579ADE926563A011F438 /* Pods_snugong_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_snugong_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7006C519819CFE357D33BC21 /* Pods_snugong_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_snugong_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9962E8EA6C50B8E84B20A5A1 /* Pods-snugong WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-snugong WatchKit App.debug.xcconfig"; path = "Target Support Files/Pods-snugong WatchKit App/Pods-snugong WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		B0462B35242CA30500B51854 /* StartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewModel.swift; sourceTree = "<group>"; };
+		B0462B38242CA47800B51854 /* Major.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Major.swift; sourceTree = "<group>"; };
 		B6704839DF4BEB1FA6CCBAD3 /* Pods-snugong WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-snugong WatchKit Extension.debug.xcconfig"; path = "Target Support Files/Pods-snugong WatchKit Extension/Pods-snugong WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
 		D68FF0393FEC85AB96E63D18 /* Pods_snugong_snugongUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_snugong_snugongUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE0E73B3241CBEDF0039B8E6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -194,6 +198,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B0462B37242CA46E00B51854 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B0462B38242CA47800B51854 /* Major.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		BCAE54EF5DDF0B87928A5EEC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -249,6 +261,7 @@
 		DE25B3FA24173E46006C832E /* snugong */ = {
 			isa = PBXGroup;
 			children = (
+				B0462B37242CA46E00B51854 /* Models */,
 				DE25B45724174CC6006C832E /* Entities */,
 				DE62BAA1241CB2240094F068 /* Module */,
 				DE25B44C24174AD8006C832E /* Views */,
@@ -381,6 +394,7 @@
 			isa = PBXGroup;
 			children = (
 				DE7444DA241CFAFF0062C113 /* StartViewController.swift */,
+				B0462B35242CA30500B51854 /* StartViewModel.swift */,
 			);
 			path = Start;
 			sourceTree = "<group>";
@@ -707,6 +721,7 @@
 				DE7444D8241CFA8E0062C113 /* HomeSwitcher.swift in Sources */,
 				DE0E73B8241CBF600039B8E6 /* HomePresenter.swift in Sources */,
 				DE7444DB241CFAFF0062C113 /* StartViewController.swift in Sources */,
+				B0462B36242CA30500B51854 /* StartViewModel.swift in Sources */,
 				DE25B4472417440A006C832E /* UIColor+Extensions.swift in Sources */,
 				DE0E73BA241CC3590039B8E6 /* HomeRouter.swift in Sources */,
 				DE25B45924174CCF006C832E /* Profile.swift in Sources */,
@@ -716,6 +731,7 @@
 				DE25B44F24174AF4006C832E /* SplashPresenter.swift in Sources */,
 				DE62BAA3241CB2410094F068 /* CalendarParser.swift in Sources */,
 				DE0E73B6241CBF1A0039B8E6 /* HomeContract.swift in Sources */,
+				B0462B39242CA47800B51854 /* Major.swift in Sources */,
 				DE62BAAB241CB5630094F068 /* AppProperty.swift in Sources */,
 				DE0E73B4241CBEDF0039B8E6 /* HomeViewController.swift in Sources */,
 				DE7444DE241CFD0F0062C113 /* HomeDataManager.swift in Sources */,

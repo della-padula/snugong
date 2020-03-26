@@ -8,12 +8,9 @@
 
 import Foundation
 import UIKit
-import RxSwift
-import RxCocoa
-import RxDataSources
 
 class StartViewController: UIViewController {
-    let disposeBag = DisposeBag()
+    var viewModel = StartViewModel()
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
@@ -21,5 +18,12 @@ class StartViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.viewModel.delegate = self
+    }
+}
+
+extension StartViewController: StartViewModelDelegate {
+    func viewModelUpdate(viewModel: StartViewModel) {
+        
     }
 }
